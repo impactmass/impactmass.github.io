@@ -1,0 +1,20 @@
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            SM
+tagline:          intelligent random stuff
+#url:              http://getpoole.com
+paginate:         1
+baseurl:          /
+author:
+  name:           Seun Martins
+  url:            https://twitter.com/impactmass
+  email:          seundotme@gmail.com
+
+# Custom vars
+#version:          1.0.0
+#github:
+#  repo:           https://github.com/poole/poole
+port:             3000
