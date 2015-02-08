@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "email:"
    Intelligent random stuff
 # Setup
 title:            Seun Martins
-name:            Seun Martins
+name:             Seun Martins
 tagline:          intelligent random stuff
 email:            seundotme@gmail.com
 url:              http://impactmass.com
@@ -16,7 +16,7 @@ cover: "assets/images/background_image.jpg"
 
 #url:              http://getpoole.com
 paginate:         5
-baseurl:          ""
+baseurl:          "http://andela-smartins.github.io/blog"
 author:
   name:           Seun Martins
   url:            https://twitter.com/impactmass
