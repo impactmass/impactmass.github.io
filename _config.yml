@@ -16,7 +16,7 @@ cover: "assets/images/background_image.jpg"
 
 #url:              http://getpoole.com
 paginate:         5
-baseurl:          "/blog"
+baseurl:          "http://andela-smartins.github.io/blog"
 author:
   name:           Seun Martins
   url:            https://twitter.com/impactmass
