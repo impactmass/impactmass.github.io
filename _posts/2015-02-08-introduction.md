@@ -1,79 +1,37 @@
-mediator
-========
-
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](http://blog.base68.com).
-
-Screenshots
---------
-![screenshot](/assets/images/screenshot1.jpg)
-![screenshot](/assets/images/screenshot2.jpg)
-![screenshot](/assets/images/screenshot3.jpg)
-
-Features
--------
-* Fully Responsive layout
-* Use header images in articles, if you want to (add tag "image" and url to the image in the front matter section of a post)
-* Minimal design
-* Featured article support
-* FontAwesome implemented for easy use of icons fonts
-* Free & Open Source Font usage
-
-Getting Started
 ---
-- [Fork this repository](https://github.com/dirkfabisch/mediator)
-- Clone it: `git clone https://github.com/YOUR-USER/mediator`
-- Install the [GitHub Pages gem](https://github.com/github/pages-gem) (includes Jekyll): `bundle install`
-- Install the [Bourbon gem](https://github.com/thoughtbot/bourbon) `gem install bourbon`
-- Run the jekyll server: `jekyll serve`
+layout: post
+title:  "Hello, Jekyll!"
+date:   2014-08-29 14:34:25
+categories: jekyll firstPost
+---
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 
-You should have a server up and running locally at <http://localhost:4000>.
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Configuration
------
+Jekyll also offers powerful support for code snippets:
 
-The main settings happen in side of the _config.yml file:
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
 
-### Site
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
-Main settings for the site
+{% highlight js %}
 
-* **title**: name of your site
-* **description**: description of your site
-* **logo**: small logo for the site (300x * 300x)
-* **cover**: large background image on the index page
+<footer class="site-footer">
+ <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a>
+  <div class="inner">a
+   <section class="copyright">All content copyright <a href="mailto:{{ site.email}}">{{ site.name }}</a> &copy; {{ site.time | date: '%Y' }} &bull; All rights reserved.</section>
+   <section class="poweredby">Made with <a href="http://jekyllrb.com"> Jekyll</a></section>
+  </div>
+</footer>
+{% endhighlight %}
 
-* **name**: name site owner
-* **email**: mail address of the site owner
-* **author**: author name
-* **author_image**: small image of author (300x * 300px)
 
-
-### Social
-
-The template allows to add all major social plattforms to your site.
-Fill the the form for each plattform. If you leave the share_* entries empty, the sharing buttons below a post are not shown.  If you leave the **url** and **desc** empty the icons are not shown on the index page, but the share icons on the article pages remains untouched (Thanks to [Phil](https://github.com/philsturgeon))
-
-* **icon**: name of social plattform (must match a name of [font-awsome](http://fortawesome.github.io/Font-Awesome/) icon set )
-* **url**:  url of your account
-* **desc**: slogan of the plattform
-* **share_url**: share url
-* **share_title**: first part of url for the title
-* **share_link**: second part of the share url for the link to the post
-
-The Liquid template engine will magical combine the different parts to a share url.
-
-```
-http://twitter.com/share?text=post_title&amp;url=post_url
-````
-
-See [_config.yml](https://github.com/dirkfabisch/mediator/blob/master/_config.yml) for more examples.
-
-Licensing
----------
-
-[MIT](https://github.com/dirkfabisch/madiator/blob/master/LICENSE) with no added caveats, so feel free to use this on your site without linking back to me or using a disclaimer or anything silly like that.
-
-Contact
--------
-I'd love to hear from you at [@dirkfabisch](https://twitter.com/dirkfabisch). Feel free to open issues if you run into trouble or have suggestions. Pull Requests always welcome.
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help

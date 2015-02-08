@@ -8,9 +8,9 @@ title:            Seun Martins
 name:            Seun Martins
 tagline:          intelligent random stuff
 email:            seundotme@gmail.com
-
+url:              http://impactmass.com
 #blog logo
-logo: "assets/images/favicon.jpg"
+logo: "/assets/images/favicon.jpg"
 # blog cover
 cover: "assets/images/background_image.jpg"
 
