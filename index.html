@@ -6,24 +6,21 @@ layout: default
     <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}>
         Teaser Image
     </div>
+    <header class="blog-header">
+      <h1 class="blog-title">{{ site.title }}</h1>
+      <h2 class="blog-description">{{ site.description }}</h2>
+    </header>
+
 </div>
 
-<header class="blog-header">
-  <h1 class="blog-title">{{ site.title }}</h1>
-  <h2 class="blog-description">{{ site.description }}</h2>
-  <div class="custom-links">
-    {% for social in site.social %}
-      {% if social.url %}
-          <a class="icon-{{ social.icon }}" href="{{ social.url }}" target="_blank">
-            <i class="fa fa-{{ social.icon }}"></i>
-          </a>
-          &nbsp;&nbsp;·&nbsp;&nbsp;
-      {% endif %}
-    {% endfor %}
-    <a href="/about/">About</a>
-  </div>
-</header>
-
+<div class="custom-links">
+  {% for social in site.social %} {% if social.url %}
+  <a class="icon-{{ social.icon }}" href="{{ social.url }}" target="_blank">
+    <i class="fa fa-{{ social.icon }}"></i>
+  </a>
+  {% endif %} {% endfor %}
+  <a href="/about/"><i class="fa fa-user"></i></a>
+</div>
 
 <main class="content" role="main">
 
