@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Web applications don’t follow new rules - So true"
-date:   2014-08-29 14:34:25
+date:   2015-02-13 14:34:25
 categories: javascript heilmann webstandards applications
+img: chris
 ---
 [Christian Heilmann] sums it up [here]:
 
