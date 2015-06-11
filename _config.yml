@@ -2,30 +2,23 @@
 permalink:        /articles/:title
 relative_permalinks: true
 description: > # this means to ignore newlines until "email:"
-   Intelligent random stuff
+   Seun Martins | Intelligent random stuff
 # Setup
 title:            Seun Martins
 name:             Seun Martins
-tagline:          Intelligent Random Stuff
+tagline:          Seun Martins | Intelligent Random Stuff
 email:            seundotme@gmail.com
 url:              http://impactmass.com
 #blog logo
 logo: "/assets/images/favicon.jpg"
 # blog cover
 cover: "assets/images/background_image.jpg"
-
-#url:              http://getpoole.com
-paginate:         5
+paginate:         15
 baseurl:          "http://impactmass.com/"
 author:
   name:           Seun Martins
   url:            https://twitter.com/impactmass
   email:          seundotme@gmail.com
-
-# Custom vars
-#version:          1.0.0
-#github:
-#  repo:           https://github.com/poole/poole
 port:             3000
 
 # Build settings
@@ -48,18 +41,3 @@ social:
     share_url: //www.facebook.com/sharer.php
     share_title: ?t=
     share_link: "&amp;u="
-
-# - icon: github
-#   url:  https://github.com/dirkfabisch
-#   desc: Fork me on github
-#   share_url:
-#   share_title:
-#   share_link:
-
-#  - icon:  google-plus
-#    url: https://google.com/???
-#    desc:  Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
-
