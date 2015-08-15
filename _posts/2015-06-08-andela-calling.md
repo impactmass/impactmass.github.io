@@ -3,7 +3,7 @@ layout: post
 title:  "Andela Calling"
 date:   2015-06-08 12:10:25
 categories: andela programming africa code
-img: class
+img: class.jpg
 ---
 
 It seems like just yesterday Andela was recruiting for our first class of developers. In fact exactly a year ago today we were using used chairs and tables in Ikoyi for our first bootcamp.

@@ -15,11 +15,11 @@
       if (top < 0 || top > 1500) { return; }
       $image
         .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
-        .css('opacity', 1-Math.max(top/700, 0));
+        .css('opacity', 0.6-Math.max(top/400, 0));
     });
     $window.trigger('scroll');
 
-    var height = $('.article-image').height();
+    var height = $('.article-image').height() + 30;
     $('.post-content').css('padding-top', height + 'px');
 
     $('a[href*=#]:not([href=#])').click(function() {

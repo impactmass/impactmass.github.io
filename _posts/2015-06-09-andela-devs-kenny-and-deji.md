@@ -3,7 +3,7 @@ layout: post
 title:  "Andela Devs - Kenny and Deji"
 date:   2015-06-09 14:34:25
 categories: andela microsoft civic graph
-img: andela
+img: andela.jpg
 ---
 
 Want to hear about the work Andela did with Microsoft? Check this out (especially at the 3min mark):

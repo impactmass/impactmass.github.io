@@ -3,7 +3,7 @@ layout: post
 title:  "Web applications don’t follow new rules - So true"
 date:   2015-02-13 14:34:25
 categories: javascript heilmann webstandards applications
-img: chris
+img: chris.jpg
 ---
 [Christian Heilmann] sums it up [here]:
 

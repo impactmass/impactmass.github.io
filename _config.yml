@@ -2,7 +2,7 @@
 permalink:        /articles/:title
 relative_permalinks: true
 description: > # this means to ignore newlines until "email:"
-   Seun Martins | Intelligent random stuff
+   Seun Martins | Intelligent Random Stuff
 # Setup
 title:            Seun Martins
 name:             Seun Martins

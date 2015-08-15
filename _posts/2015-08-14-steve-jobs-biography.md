@@ -4,6 +4,7 @@ title:  "4 things that stood out to me in Steve Jobs' biography"
 date:   2015-08-14 13:24:25
 categories: steve jobs biography
 img: stevebio
+image: wwdc.jpg
 ---
 
 
@@ -48,4 +49,9 @@ On a visit to Japan, Rubinstein saw some Toshiba engineers show a storage disk t
 Sometimes a conversation with someone or a sight can make us see what we thought couldn’t be achieved yet.
 
 Among many other things, these four themes stood out in my journey through the book.
+
+
+<p class="credits">Photo Credit: <a href="https://www.flickr.com/photos/81607647@N00/2566168231/">Mathieu Thouvenin</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">cc</a></p>
+
+
 
