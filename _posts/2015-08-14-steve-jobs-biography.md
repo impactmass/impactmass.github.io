@@ -3,7 +3,7 @@ layout: post
 title:  "4 things that stood out to me in Steve Jobs' biography"
 date:   2015-08-14 13:24:25
 categories: steve jobs biography
-img: stevebio
+img: stevebio.jpg
 image: wwdc.jpg
 ---
 
