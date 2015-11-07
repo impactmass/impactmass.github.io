@@ -8,7 +8,7 @@ image: vid.png
 ---
 
 *VOW (Video of the Week) : A weekly series where I highlight a video I liked.*
-
+:::
 #### Snippet:
 
 You need four things to create a "Silicon Valley":
