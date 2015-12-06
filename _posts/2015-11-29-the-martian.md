@@ -3,7 +3,8 @@ layout: post
 title:  "The Martian"
 date:   2015-11-29 02:10:25
 categories: book mars
-img: the_martian.jpg
+image: the_martian.jpg
+img: the_martian1.jpg
 ---
 
 I just finished reading The Martian. I enjoyed it. A lot. The story showed a lot of ingenuity.
@@ -31,8 +32,11 @@ I like the book because it shows people pushing the boundary of established know
 
 1. Going back to basics: Mark solved many problems by breaking the problem down. Then he'd assess how basic principles can be useful in solving them. Elon Musk calls this "[First Principles Reasoning]." This is approach is also true in programming. To understand and solve complex problems, one has to deconstruct it and start solving one at a time. 
 
-2. Cross pollination: Some problems cannot be solve in isolation. A bit of knowledge from one area can be helpful in another. Mark made this statement towards the end of his stay on Mars:
-> “If I've learned one thing from my stay at Club Mars, it's that EVERYTHING can be useful.” (emphasis mine)
+2. Cross pollination: Some problems cannot be solved in isolation. A bit of knowledge from one area can be helpful in another. Mark made this statement towards the end of his stay on Mars:
+> “If I've learned one thing from my stay at Club Mars, it's that EVERYTHING can be useful.”
+(emphasis mine)
+
+For Mark, his Botany education came in handy when figuring out how to grow crops on Mars. For the crew in the spaceship, Vogel's Chemistry background was helpful too. He made a bomb out of on-board flammables and pure oxygen to help the spaceship gain thrust. Who knows where that bit of knowledge might be useful?
 
 Read the book if you can.
 
