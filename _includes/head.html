@@ -12,19 +12,19 @@
   {% if page.title %}
   <meta property="og:type" content="article">
   <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:description" content="{{ page.content | truncate:150 }}">
+  <meta property="og:description" content="{{ page.content | truncate:150 | split:'<' | first }}">
   <meta property="og:url" content="{{ page.url | prepend: site.url }}">
 
   <meta property="og:site_name" content="{{ site.description }} | {{ site.name }}'s blog">
 
   <meta property="article:published_time" content="{{ page.date }}">
 
-  <meta property="og:image" content="{{ site.baseurl }}assets/{{ page.img }}.jpg">
-  <meta name="twitter:image:src" content="{{ site.baseurl }}assets/{{ page.img }}.jpg">
+  <meta property="og:image" content="{{ site.baseurl }}assets/{{ page.img }}">
+  <meta name="twitter:image:src" content="{{ site.baseurl }}assets/{{ page.img }}">
 
-  <meta name="twitter:card" content="{{ page.content | truncate:150 }}">
-  <meta name="twitter:description" content="{{ page.content | truncate:150 }}">
-  <meta name="twitter:title" content="{{ page.content | truncate:150 }}">
+  <meta name="twitter:card" content="{{ page.content | truncate:150 | split:'<' | first }}">
+  <meta name="twitter:description" content="{{ page.content | truncate:150 | split:'<' | first }}">
+  <meta name="twitter:title" content="{{ page.content | truncate:150 | split:'<' | first }}">
 
   <meta name="twitter:domain" content="{{ site.description }} | {{ site.name }}'s blog">
 
@@ -36,7 +36,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-  <link href='http://fonts.googleapis.com/css?family=Lato:300|Vollkorn' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400|Vollkorn' rel='stylesheet' type='text/css'>
 
   <!--  <link rel="stylesheet" href="{{asset "js/styles/obsidian.css"}}"> -->
   <link rel="stylesheet" type="text/css" media="all" href="{{ "/css/font-awesome.min.css "  | prepend: site.baseurl  }}" />

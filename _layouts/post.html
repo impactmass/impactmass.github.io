@@ -9,20 +9,12 @@
       <article class="post">
         {% if page.image %}
         <div class="article-image">
-          <div class="post-image-image" style="background-image: url({% if page.image %}{{ page.image }}{% endif %})">
+          <div class="post-image-image" style="background: url({% if page.image %}{{ site.baseurl }}/assets/{{ page.image }}{% endif %}) no-repeat center center">
             Article Image
           </div>
           <div class="post-meta">
             <h1 class="post-title">{{ page.title }}</h1>
             <div class="cf post-meta-text">
-              <div class="author-image" style="background-image: url({{ site.author_image }})">Blog Logo</div>
-              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ site.author }}</h4>
-              on
-              <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time>
-              <!-- , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} -->
-            </div>
-            <div style="text-align:center">
-              <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
             </div>
           </div>
         </div>
@@ -49,6 +41,7 @@
         </section>
         <footer class="post-footer">
           <section class="share">
+            <b>Share this article:</b>
             {% for social in site.social %}
               {% if social.share_url != null %}
                 <a class="icon-{{ social.icon }}" href="{{ social.share_url }}{{ social.share_title }}{{ page.title | cgi_escape }}{{ social.share_link }}{{ site.url }}{{page.id}}"

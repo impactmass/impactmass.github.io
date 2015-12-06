@@ -3,7 +3,7 @@ layout: post
 title:  "Short Angular Talk"
 date:   2015-07-02 23:10:25
 categories: andela programming angular google-io
-img: angularjs-logo
+img: angularjs-logo.jpg
 ---
 
 I gave a short talk about moving towards Angular 2.0 at the last Google I/O extended event organised by GDG Lagos.
