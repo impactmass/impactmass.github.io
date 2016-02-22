@@ -30,11 +30,11 @@ body
 
 body
   *
-    line-height: 1.5 !important
+    line-height: 1.6 !important
 
 @media screen and (min-width: 45em)
   body
-    font-size: 100%
+    font-size: 80%
 
 
 body
@@ -152,7 +152,7 @@ h6
 
 .content
   width: 100%
-  max-width: 800px
+  max-width: 700px
   margin: 0 auto
   @include box-sizing(border-box)
   @include respond-to(800)
@@ -401,7 +401,6 @@ h6
       font-size: 1.2em
       line-height: 1.6
       margin: 0
-      text-align: justify
       padding-bottom: 30px
       color: #333
       -webkit-hyphens: auto
@@ -413,13 +412,14 @@ h6
       color: #333
       text-decoration: none
       color: #BE3A3A
+      &:hover
+        text-decoration: underline
     img
       margin: 0 auto
       display: block
       border: 1px solid
       padding: 4px
       max-width: 100%
-      width: 100%
     figure
       margin: 0
       padding: 0 0 30px
@@ -653,6 +653,9 @@ pre
 .fa
   text-decoration: none
   color: #BE3A3A
+.img-left
+  img
+    margin: 0 !important
 
 @media screen and (max-width: 600px)
   $rs: 1em
