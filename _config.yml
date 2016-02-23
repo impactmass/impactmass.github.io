@@ -1,6 +1,5 @@
 # Permalinks
 permalink:        /articles/:title
-relative_permalinks: true
 description: > # this means to ignore newlines until "email:"
    Intelligent Random Stuff
 # Setup
@@ -20,7 +19,8 @@ author:
   url:            https://twitter.com/impactmass
   email:          seundotme@gmail.com
 port:             3000
-
+gems: [jekyll-paginate]
+future: true
 # Build settings
 markdown: rdiscount
 rdiscount:
