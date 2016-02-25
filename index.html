@@ -35,11 +35,10 @@ layout: default
               <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
             </header>
             <section class="post-excerpt" itemprop="description">
-              <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+              <p>{{ post.content | truncatewords: 250 }}</p>
             </section>
             <div class="post-meta">
               <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-  <!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
             </div>
           </div>
         </article>
@@ -52,16 +51,27 @@ layout: default
     <div class="cf frame">
       {% for post in paginator.posts %}
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-          <div class="article-item">
+          <div class="article-item post-content">
             <header class="post-header">
               <h2 class="post-title" itemprop="name"><a href="{{site.baseurl}}{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
             </header>
             <section class="post-excerpt" itemprop="description">
-              <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+              <p>{{ post.content | truncatewords: 250 }}</p>
+
+              {% capture content_words %}
+                {{ post.content | number_of_words }}
+              {% endcapture %}
+
+              {% capture excerpt_words %}
+                {{ post.content | truncatewords: 250 | number_of_words }}
+              {% endcapture %}
+
+              {% if content_words != excerpt_words  %}
+              <p class="right"><a href="{{site.baseurl}}{{ post.url }}">Read more</a></p>
+              {% endif %}
             </section>
             <div class="post-meta">
               <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-<!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
             </div>
           </div>
         </article>
