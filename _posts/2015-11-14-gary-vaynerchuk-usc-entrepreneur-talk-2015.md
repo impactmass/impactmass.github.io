@@ -17,4 +17,7 @@ You need to bet on your strengths and don't give a f**k about what you suck at.
 
 
 Full video:
+
+{::nomarkdown}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hSjNhtk-Yik" frameborder="0" allowfullscreen></iframe>.
+{:/nomarkdown}

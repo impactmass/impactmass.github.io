@@ -19,4 +19,7 @@ There are three elements to Motivation in the new era:
 
 
 Full video:
+
+{::nomarkdown}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u6XAPnuFjJc" frameborder="0" allowfullscreen></iframe>.
+{:/nomarkdown}

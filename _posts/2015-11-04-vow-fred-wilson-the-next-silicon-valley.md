@@ -21,4 +21,7 @@ You need four things to create a "Silicon Valley":
 > “Get the rich people in the city to take their money out of bonds and put them into startups. You are not going to create the next generation of companies with all your wealthy people having their money in bonds. ...In my mind THE most critical thing is angel capital.” - Fred Wilson
 
 Full video:
+
+{::nomarkdown}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vp9D-JCd_LQ" frameborder="0" allowfullscreen></iframe>.
+{:/nomarkdown}

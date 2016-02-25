@@ -11,4 +11,7 @@ image: vid.png
 :::
 
 Full video:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/i-4Auh7vgDU" frameborder="0" allowfullscreen></iframe>.
+
+{::nomarkdown}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i-4Auh7vgDU" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>.
+{:/nomarkdown}

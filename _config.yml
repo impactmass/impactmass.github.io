@@ -11,20 +11,18 @@ url:              http://impactmass.com
 #blog logo
 logo: "/assets/images/favicon.jpg"
 # blog cover
-cover: "assets/images/background_image.jpg"
-paginate:         15
-baseurl:          "http://impactmass.com/"
+cover: "/assets/images/background_image.jpg"
+paginate: 7
+baseurl:  "http://impactmass.com/"
 author:
-  name:           Seun Martins
-  url:            https://twitter.com/impactmass
-  email:          seundotme@gmail.com
+  name:   Seun Martins
+  url:    https://twitter.com/impactmass
+  email:  seundotme@gmail.com
 port:             3000
 gems: [jekyll-paginate]
 future: true
 # Build settings
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
+markdown: kramdown
 
 # social icons and sharing options
 social:

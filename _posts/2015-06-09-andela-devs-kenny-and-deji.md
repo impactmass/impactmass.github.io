@@ -8,8 +8,9 @@ img: andela.jpg
 
 Want to hear about the work Andela did with Microsoft? Check this out (especially at the 3min mark):
 
+{::nomarkdown}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/m-dryRdBIs8" frameborder="0" allowfullscreen></iframe>.
-
+{:/nomarkdown}
 
 Thumbs up, [Kenny] and [Deji].
 
