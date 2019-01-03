@@ -1,41 +1,20 @@
-# Permalinks
-permalink:        /articles/:title
-description: > # this means to ignore newlines until "email:"
-   Intelligent Random Stuff
-# Setup
-title:            Seun Martins
-name:             Seun Martins
-tagline:          Intelligent Random Stuff
-email:            seundotme@gmail.com
-url:              http://impactmass.com
-#blog logo
+permalink: /articles/:title
+description: Intelligent Random Stuff
+tagline: Intelligent Random Stuff
+title: Seun Martins
+name: Seun Martins
+email: seundotme@gmail.com
+url:  http://impactmass.com
+baseurl: "http://impactmass.com"
 logo: "/assets/images/favicon.jpg"
-# blog cover
 cover: "/assets/images/background_image.jpg"
 paginate: 7
-baseurl:  "http://impactmass.com"
 author:
-  name:   Seun Martins
-  url:    https://twitter.com/impactmass
-  email:  seundotme@gmail.com
-port:             3000
-gems: [jekyll-paginate]
+  name: Seun Martins
+  email: seundotme@gmail.com
+port: 3000
+plugins: [jekyll-paginate]
 future: true
+
 # Build settings
 markdown: kramdown
-
-# social icons and sharing options
-social:
-  - icon: twitter
-    url:  https://twitter.com/impactmass
-    desc: Follow me on twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
-
-  - icon:  facebook
-    url: https://facebook.com/impactmass
-    desc: Connect with me facebook
-    share_url: //www.facebook.com/sharer.php
-    share_title: ?t=
-    share_link: "&amp;u="
