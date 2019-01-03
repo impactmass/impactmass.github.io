@@ -4,7 +4,10 @@ title: About
 permalink: /about/
 ---
 
-* I'm a fullstack developer.
-* My primary stack include AngularJS and NodeJS.
-* I work at [Andela](http://andela.co). Amazing place, btw.
-* I'm @impactmass on Twitter, Facebook and IG.
+* Full Stack developer
+* Current proficiency:
+  - Front-end: HTML5, CSS3, React
+  - Node.js, Express.js, server side JavaScript
+* Previously: Angular 1.x
+* Work: Software Engineer, [Reaction Commerce](http://reactioncommerce.com)
+* Ex-Andela [Fellow](http://andela.com/fellowship/apply)
